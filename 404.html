@@ -1,0 +1,21 @@
+<!doctype html>
+<!-- Weiterleitung unbekannter Pfade der alten Adresse (Change webseite-umzug): /dayvista-web/<pfad> → https://dayvista.github.io/<pfad> -->
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="robots" content="noindex" />
+    <title>Dayvista – umgezogen</title>
+    <link rel="canonical" href="https://dayvista.github.io/" />
+    <script>
+      location.replace(
+        'https://dayvista.github.io/' + location.pathname.replace(/^\/dayvista-web\/?/, '') + location.search + location.hash,
+      );
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=https://dayvista.github.io/" /></noscript>
+  </head>
+  <body style="font-family: system-ui, sans-serif; margin: 3rem 1.5rem; line-height: 1.5">
+    <p>Dayvista ist umgezogen: <a href="https://dayvista.github.io/">dayvista.github.io</a></p>
+  </body>
+</html>
